@@ -1,0 +1,116 @@
+.head{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    justify-content: space-between;
+    padding-right: 8px;
+    background-color: black;
+    padding: 15px 30px;
+    margin-bottom: 3rem;
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body, html {
+    height: 100%;
+    background-color: #232946;
+}
+h1{
+    color: chartreuse;
+    text-shadow: 3px 4px 2px olive;
+}
+header{
+    display: flex;
+    /* margin: 0;
+    padding: 0; */
+}
+nav{
+    display: flex;
+}
+nav ul{
+    list-style: none;
+    display: flex;
+    gap: 25px;    
+    flex-wrap: wrap;
+    margin: 0;
+    padding: 0;
+}
+nav a{
+    text-decoration: none;
+    color: aliceblue;
+}
+nav a:hover{
+    color: aqua;
+    text-decoration: underline;
+}
+section{
+    border-left: 4px solid orange;
+    border-radius: 20px;
+    padding-left: 15px;
+}
+h2{
+    color: darkgrey;
+    font-size: 2rem;
+    text-shadow: 1px 2px 1px hotpink;
+    margin-bottom: 1rem;
+    text-decoration: underline dotted gold;
+}
+p{
+    color: honeydew;
+    margin-bottom: 4rem;
+    font-family: Arial, Helvetica, sans-serif;
+}
+aside{
+    text-align: center;
+    border: 2px solid gold; 
+    background: linear-gradient(to left, #232946, orange, pink, honeydew, pink, burlywood, orange, #232946);
+    margin-bottom: 35px;
+}
+aside b{
+    font-size: 2rem;
+    color: darkblue;
+}
+aside ul{
+    color: #232946;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    justify-content: space-between;
+    list-style: none;
+    padding-top: 15px;
+}
+aside ul li {
+    padding-bottom: 5px;
+}
+aside ul li:hover{
+    color: cornsilk;
+    text-shadow: 2px 2px 2px black;
+    font-size: 1rem;
+}
+footer{
+    background-color: midnightblue;
+    text-align: center;
+}
+footer h3{
+    color: azure;
+    font-size: 23px;
+}
+footer ul{
+    padding-top: 25px;
+    gap: 75px;
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 25px;
+}
+footer ul li a{
+    text-decoration: none;
+    color: deeppink;
+}
+footer a:hover{
+    color: darkturquoise;
+    text-decoration: underline;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}

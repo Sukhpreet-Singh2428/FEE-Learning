@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+</head>
+<body>
+    <header>
+        <h1>Registration Form</h1>
+    </header>
+
+    <main>
+        <form action="submit">
+            <label>First Name:</label>
+            <input type="text" name="First Name" placeholder="Enter your first name" pattern="[A-Z,a-z]{4,}" minlength="4" required><br><br>
+
+            <label>Last Name:</label>
+            <input type="text" name="Last name" placeholder="Enter your last name" required><br><br>
+
+            <label>Username:</label>
+            <input type="text" name="Username" placeholder="Enter your username" pattern="[A-Z,a-z,1-9]{4,}" minlength="4" required title="Minimum of length 4. Special Character not allowed. Required length 10"><br><br>
+
+            <label>Email:</label>
+            <input type="email" name="Email" placeholder="Enter your email" maxlength="15" required><br><br>
+
+            <label>Phone Number:</label>
+            <input type="tel" name="Phone Number" placeholder="Enter the phone number" pattern="[0-9]{10}" required><br><br>
+
+            <label>Password:</label>
+            <input type="password" name="Password" placeholder="Enter your password" pattern="[A-Z,a-z,@,#,&,$,0-9]{12,}" minlength="12" maxlength="20" required><br><br>
+
+            <label>Gender:</label>
+            <input type="radio" name="Gender"> Male
+            <input type="radio" name="Gender"> Female
+            <br><br>
+
+            <button>Submit</button>
+        </form>
+    </main>
+</body>
+</html>
