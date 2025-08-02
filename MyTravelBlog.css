@@ -1,0 +1,136 @@
+body{
+    margin: 0;
+    background-color: #232946;
+}
+html{
+    scroll-behavior: smooth;
+}
+nav ul {
+    display: flex;
+    list-style: none;
+    gap: 25px;
+    margin: 0;
+    padding: 0;
+}
+nav ul a {
+    text-decoration: none;
+    color: gainsboro;
+    text-shadow: 2px 1px 2px black;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: large;
+}
+nav ul a:hover{
+    color: coral;
+    text-decoration: underline;
+    text-shadow: 2px 1px 2px black;
+}
+header{
+    display: flex;
+    align-items: center;
+    align-content: center;
+    justify-content: space-between;
+    background-color: rgba(255, 255, 255, 0.1);
+    padding-left: 20px;
+    padding-right: 20px;
+    /* margin-bottom: 80px; */
+}
+main{
+    height: 300vh;
+    width: 100vw;
+}
+.title{
+    color: honeydew;
+    text-shadow: 2px 3px 2px black;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.main-h1{
+    color: floralwhite;
+    text-align: center;
+    font-size: 2rem;
+    text-shadow: 2px 2px 2px hotpink;
+}
+.first{
+    height: 18%;
+    width: 100%;
+    display: flex;
+    margin-bottom: 45px;
+}
+.para{
+    height: 100%;
+    width: 60%;
+    align-content: center;
+}
+.para p{
+    padding: 30px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: ghostwhite;
+    text-shadow: 2px 2px 2px #7300e6;
+    font-size: 1.5rem;
+}
+.image{
+    height: 100%;
+    width: 40%;
+
+}
+.image img{
+    height: 50vh;
+}
+table{
+    margin-left: auto;
+    margin-right: auto;
+    border-spacing: 50px;
+    background: linear-gradient(to bottom, beige, ghostwhite, beige);
+    border-radius: 45px;
+    box-shadow: 5px 6px 5px 3px hotpink;
+}
+table th{
+    color: #232946;
+    text-shadow: 2px 1px 2px black;
+    font-size: 2.3rem;
+}
+table td{
+    text-align: center;
+    color: dodgerblue;
+    font-size: 2rem;
+    text-shadow: 2px 1px 2px black;
+}
+.Quote{
+    text-align: center;
+}
+.Quote p{
+    color: honeydew;
+    text-shadow: 2px 3px 2px hotpink;
+    font-size: 3rem;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    padding: 50px;
+}
+.video{
+    height: 31%;
+    width: 100%;
+    border: 3px solid hotpink;
+    margin-bottom: 45px;
+}
+video{
+    height: 93vh;
+    width: 100vw;
+    object-fit: cover;
+}
+.travel-form{
+    height: 12%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+form{
+    height: 100%;
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    justify-content: center;
+    gap: 30px;
+    background: linear-gradient(to bottom, beige, ghostwhite, beige);
+    border-radius: 40px;
+    padding: 20px;
+}

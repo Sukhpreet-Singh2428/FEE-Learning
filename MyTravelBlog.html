@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Travel Blog</title>
+    <link rel="stylesheet" href="/MyTravelBlog.css">
+</head>
+<body>
+    <header>
+        <div class="title">
+            <h1>My Travel Blog</h1>
+        </div>
+
+        <nav>
+            <div class="nav">
+                <ul>
+                    <li><a href="#Home">Home</a></li>
+                    <li><a href="#Blog-Section">Blog Section</a></li>
+                    <li><a href="#PicsandVideos">Pics and Videos</a></li>
+                    <li><a href="#About-us">About Us</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <div  class="main-h1">
+            <h1>The Blog</h1>
+        </div>
+        <br>
+        <div class="first">
+            <div class="para">
+                <p>Welcome to the blog! Whether you're here to learn something new, explore fresh perspectives, or simply find inspiration, you're in the right place. This space is dedicated to sharing ideas, insights, and stories that aim to inform, engage, and spark thoughtful conversations. Dive in and join the journey—we’re glad you’re here!</p>
+            </div>
+
+            <div class="image">
+                <div class="pic">
+                    <img src="https://images.unsplash.com/photo-1590523277543-a94d2e4eb00b?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8dHJhdmVsJTIwYmxvZ2dlcnxlbnwwfHwwfHx8MA%3D%3D">
+                </div>
+            </div>
+        </div>
+
+        <div class="table">
+            <table>
+                <thead>
+                    <th>Country</th>
+                    <th>Best Time to Visit</th>
+                    <th>Language</th>
+                </thead>
+
+                <tbody>
+                    <tr>
+                        <td>Japan</td>
+                        <td>Spring</td>
+                        <td>Japnese</td>
+                    </tr>
+
+                    <tr>
+                        <td>India</td>
+                        <td>Pre-Winters</td>
+                        <td>Hindi</td>
+                    </tr>
+
+                    <tr>
+                        <td>Paris</td>
+                        <td>April to June</td>
+                        <td>English</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+
+        <div class="Quote">
+            <p>"Travel makes one modest. You see what a tiny place you occupy in the world"</p>
+        </div>
+
+        <div class="video">
+            <video autoplay muted loop >
+                <source src="https://videos.pexels.com/video-files/3214448/3214448-uhd_2560_1440_25fps.mp4">
+            </video>
+        </div>
+
+        <!-- <div class="audio">
+            <audio loop autoplay muted>
+                <source src=""
+            >
+        </div> -->
+
+        <div class="travel-form">
+            <form>
+                <label>Name : 
+                    <input type="text" name="Name" placeholder="Enter your Full Name here" minlength="4" required>
+                </label>
+                <label>Destination Interest 
+                    <select name="Destination Interest" required>
+                        <option value="Japan">Japan</option>
+                        <option value="India">India</option>
+                        <option value="Paris">Paris</option>
+                    </select>
+                </label>
+                <label>Type of Traveler : 
+                    <input type="radio" name="Type of Traveler" required>Regular
+                    <input type="radio" name="Type of Traveler" required>Vacationly
+                    <input type="radio" name="Type of Traveler" required>Short-period Traveler
+                </label>
+                <label>Email: 
+                    <input type="email" name="Email" placeholder="Enter your email here" required>
+                </label>
+                <button type="submit">Submit</button>
+            </form>
+        </div>
+    </main>
+</body>
+</html>
