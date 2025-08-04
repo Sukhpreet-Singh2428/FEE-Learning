@@ -1,9 +1,11 @@
 body{
     margin: 0;
-    background-color: #232946;
+    /* background-color: #232946; */
+    background-color: #201f31;
 }
 html{
     scroll-behavior: smooth;
+    overflow-x: hidden;
 }
 nav ul {
     display: flex;
@@ -14,10 +16,12 @@ nav ul {
 }
 nav ul a {
     text-decoration: none;
-    color: gainsboro;
+    /* color: gainsboro; */
+    color: #ffbade;
     text-shadow: 2px 1px 2px black;
     font-family: Georgia, 'Times New Roman', Times, serif;
-    font-size: large;
+    /* font-family: Poppins, Arial; */
+    font-size: 1.3rem;
 }
 nav ul a:hover{
     color: coral;
@@ -29,7 +33,9 @@ header{
     align-items: center;
     align-content: center;
     justify-content: space-between;
-    background-color: rgba(255, 255, 255, 0.1);
+    /* background-color: rgba(255, 255, 255, 0.1); */
+    background: #403f59;
+     /* background: #ffbade; */
     padding-left: 20px;
     padding-right: 20px;
     /* margin-bottom: 80px; */
@@ -44,27 +50,42 @@ main{
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 .main-h1{
-    color: floralwhite;
+    /* color: floralwhite; */
+    color: #000;
     text-align: center;
-    font-size: 2rem;
-    text-shadow: 2px 2px 2px hotpink;
-}
-.first{
+    align-content: center;
+    font-size: 4rem;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-shadow: 3.5px 2.5px 1.5px ghostwhite;
+    background-image: url("https://images.pexels.com/photos/691668/pexels-photo-691668.jpeg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
     height: 18%;
     width: 100%;
+    background-attachment: scroll;
+    margin-bottom: 45px;
+}
+
+.first{
+    height: 18%;
+    width: 96%;
     display: flex;
     margin-bottom: 45px;
+    padding-left: 15px;
+    padding-right: 10px;
 }
 .para{
     height: 100%;
     width: 60%;
     align-content: center;
+    /* padding: 30px; */
 }
 .para p{
     padding: 30px;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     color: ghostwhite;
-    text-shadow: 2px 2px 2px #7300e6;
+    text-shadow: 2px 2px 1px #9e056e;
     font-size: 1.5rem;
 }
 .image{
@@ -74,14 +95,17 @@ main{
 }
 .image img{
     height: 50vh;
+    width: 100%;
 }
+
 table{
     margin-left: auto;
     margin-right: auto;
     border-spacing: 50px;
     background: linear-gradient(to bottom, beige, ghostwhite, beige);
     border-radius: 45px;
-    box-shadow: 5px 6px 5px 3px hotpink;
+    /* box-shadow: 5px 6px 5px 3px hotpink; */
+    box-shadow: 0 0 20px #ffbade;
 }
 table th{
     color: #232946;
@@ -107,7 +131,8 @@ table td{
 .video{
     height: 31%;
     width: 100%;
-    border: 3px solid hotpink;
+    box-shadow: 0 0 20px #ffbade;
+    border-radius: 8px;
     margin-bottom: 45px;
 }
 video{
